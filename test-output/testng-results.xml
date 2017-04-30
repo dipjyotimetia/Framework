@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Successfully navigated to the URL |]]>
+    </line>
+    <line>
+      <![CDATA[Successfull Logout |]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26469" started-at="2016-12-06T12:09:14Z" finished-at="2016-12-06T12:09:41Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="26469" started-at="2016-12-06T12:09:14Z" finished-at="2016-12-06T12:09:41Z">
+      <class name="TestSuite.TC01">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:TestSuite.TC01@598067a5]" name="beforeClass" is-config="true" duration-ms="24058" started-at="2016-12-06T23:09:14Z" finished-at="2016-12-06T23:09:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfully navigated to the URL |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TC001()[pri:0, instance:TestSuite.TC01@598067a5]" name="TC001" duration-ms="320" started-at="2016-12-06T23:09:38Z" finished-at="2016-12-06T23:09:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Successfull Logout |]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC001 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:TestSuite.TC01@598067a5]" name="afterClass" is-config="true" duration-ms="2057" started-at="2016-12-06T23:09:38Z" finished-at="2016-12-06T23:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- TestSuite.TC01 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
