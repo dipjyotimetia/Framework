@@ -8,6 +8,7 @@ import java.util.concurrent.TimeUnit;
 import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -43,7 +44,7 @@ public class TC01 {
 		System.out
 				.println("Login Successfully, now it is the time to Log Off buddy.");
 
-		Reporter.log("Successfull Logout |");
+		Reporter.log("Successful Logout |");
 
 		ExcelUtilities.setCellData("Pass", 1, 3);
 
