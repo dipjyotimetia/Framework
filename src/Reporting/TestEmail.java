@@ -63,7 +63,7 @@ public class TestEmail extends DemoBaseClass {
 	//After complete execution send pdf report by email
 	@AfterSuite
 	public void tearDown(){
-		sendPDFReportByGMail("dipjyotimetia@gmail.com", "dip@1990", "dipjyotimetia@live.com", "PDF Report", "");
+		sendPDFReportByGMail("xyz@gmail.com", "123456", "xyz@live.com", "PDF Report", "");
 	}
 	
 	/**
